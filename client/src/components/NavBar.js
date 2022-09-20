@@ -42,7 +42,7 @@ return(
 
             <Navbar.Collapse id="basic-navbar-nav">
 
-                <Nav className="me-auto">
+                <Nav className="ms-auto">
                     <Nav.Link className={activeLink === 'home' ? 'active navbar-link': 'navbar-link'} href="#home" onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                     <Nav.Link className={activeLink === 'skills' ? 'active navbar-link': 'navbar-link'} href="#skills" onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                     <Nav.Link className={activeLink === 'projects' ? 'active navbar-link': 'navbar-link'} href="#projects" onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
@@ -54,7 +54,7 @@ return(
                     <a href="https://github.com/manishaheera"> <img src={require('../images/github.png')} alt="github-icon" /> </a>
                     <a href="https://www.youtube.com/channel/UCDTEZPMx7wNoWt8VxJDWTVA/featured"> <img src={require('../images/youtube.png')} alt="youtube-icon" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span> Let's Connect</span></button>
+                    <button className="vvd" onClick={() => console.log('connect')}><span> Contact</span></button>
                 </span>
 
             </Navbar.Collapse>

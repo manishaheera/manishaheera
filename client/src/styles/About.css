@@ -1,0 +1,74 @@
+.about {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background:linear-gradient(45deg, #EEEEEE, #FAF8F9, #FFFFFF);
+}
+
+.about .welcome-tag {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.about h1 {
+    line-height: 1;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    display: block;
+    /* -webkit-text-stroke: 3px rgb(154, 86, 108); */
+    filter: drop-shadow(0.5rem 0 0.95rem rgb(255, 255, 255));
+    color: black;
+}
+
+.about p {
+    line-height: 1.5em;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    width: 96%;
+}
+
+.about button {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.about button svg {
+    line-height: 1;
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.about button:hover svg {
+    margin-left: 25px;
+}
+
+.about img {
+    animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20x);
+    }
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+}

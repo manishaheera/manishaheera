@@ -9,7 +9,7 @@ nav.navbar{
 
 nav.navbar.scrolled{
     padding: 0px 0;
-    background-color: #121212;
+    background-color: #efe9e9;
 }
 
 nav.navbar a.navbar-brand{
@@ -18,7 +18,6 @@ nav.navbar a.navbar-brand{
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
-    color: #ffffff !important;
     letter-spacing: 0.8px;
     padding: 0 25px;
     font-size: 18px;
@@ -43,27 +42,27 @@ span.navbar-text {
 .social-icon a {
     width: 60px;
     height: 60px;
-    background: rgba(217, 217, 217, 0.1);
+    /* background: rgba(217, 217, 217, 0.1); */
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .social-icon a::before {
     content: "";
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
     transform: scale(0);
     transition: 0.3s ease-in-out;
     filter: drop-shadow(0.5rem 0 0.95rem rgb(255, 255, 255));
-    box-shadow: 0 0 0 3px #3b3a39;
+    box-shadow: 0 0 0 3px #a47480;
 }
 
 .social-icon a:hover::before {
@@ -71,7 +70,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
-    width: 48%;
+    width: 58%;
     z-index: 1;
     transition: 0.3s ease-in-out;
 }
@@ -82,8 +81,7 @@ span.navbar-text {
 
 .navbar-text button {
     font-weight: 700;
-    color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 18px 34px;
     font-size: 18px;
     margin-left: 18px;
@@ -101,15 +99,16 @@ span.navbar-text {
     width: 0%;
     height: 100%;
     position: absolute;
-    background-color: #fff;
+    background-color: #ffffff;
     left: 0;
     top: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
+    border-style: none;
 }
 
 .navbar-text button:hover {
-    color: #121212;
+    color: #000000;
 }
 
 .navbar-text button:hover::before {
@@ -130,7 +129,7 @@ nav.navbar .navbar-toggler-icon {
     height: 17px;
     background-image: none;
     position: relative;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffff;
     transition: all 300ms linear;
     top: -2px;
 }
