@@ -10,20 +10,25 @@
     padding: 8px 10px;
     color: black;
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
 }
 
 .about h1 {
-    line-height: 1;
-    letter-spacing: 0.8px;
+    line-height: 1.23;
+    letter-spacing: 0.9px;
     font-weight: 700;
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 5px;
     display: block;
-    /* -webkit-text-stroke: 3px rgb(154, 86, 108); */
     filter: drop-shadow(0.5rem 0 0.95rem rgb(255, 255, 255));
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Cookie', cursive;
+    /* background: -webkit-linear-gradient(-86deg, #c21818 5%, #ffa0aa 53%, #dfc326 91%); */
+    background: -webkit-linear-gradient(-86deg, #c21818 5%, #ffa0aa 53%, #dfc326 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
 }
 
 .about p {
@@ -32,6 +37,7 @@
     font-size: 18px;
     letter-spacing: 0.8px;
     width: 96%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .about button {

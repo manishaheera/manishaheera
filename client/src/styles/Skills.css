@@ -1,0 +1,34 @@
+.skills {
+    position: relative;
+    padding: 0 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(241, 240, 240);
+}
+
+.skills-box {
+    color: black;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 40px 50px;
+    margin-top: -60px;
+}
+
+.skills p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+    letter-spacing: 0.8px;
+}
+
+.skills-carousel {
+    margin: 0 auto;
+    width: 85%;
+    position: relative;
+}
+
+.skills-carousel .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
